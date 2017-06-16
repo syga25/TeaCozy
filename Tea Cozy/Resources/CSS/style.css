@@ -1,0 +1,166 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+h2 {
+  font-weight: bold;
+}
+h4 {
+  font-weight: bold;
+}
+.Top {
+  display: flex;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+.Logo {
+  display: flex;
+  height: 50px;
+  margin: 0px auto 0px 10px;
+}
+.Navig {
+  display: flex;
+  height: 50px;
+  width: 650px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Navig a {
+  display: inline-flex;
+  list-style: none;
+  text-decoration: underline;
+  margin: 0px 12px 0px 12px;
+  color: seashell;
+}
+.Pix {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  margin: auto;
+}
+.PixBar {
+  display: block;
+  background-color: black;
+  flex-direction: column;
+  height: 150px;
+  width:1200px;
+}
+.Center {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 1000px;
+  height: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Center div {
+  flex-direction: column;
+}
+.Center span {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+.Center-C1 {
+  display: flex;
+  padding: 15px;
+  height: 200px;
+  width: 300px;
+}
+.Center-C2 {
+  display: flex;
+  padding: 15px;
+  height: 200px;
+  width: 300px;
+}
+.Center-C3 {
+  display: flex;
+  padding: 15px;
+  height: 200px;
+  width: 300px;
+}
+.Center-C4 {
+  display: flex;
+  padding: 15px;
+  height: 200px;
+  width: 300px;
+}
+.Center-C5 {
+  display: flex;
+  padding: 15px;
+  height: 200px;
+  width: 300px;
+}
+.Down {
+  display: flex;
+  width: 1200px;
+  height: 560px;
+  margin: 80px auto 10px auto;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+.Down-D {
+  display: flex;
+  padding: 0px;
+}
+.Down h2 {
+  margin: 60px 0px 0px 0px;
+}
+.Down-D-1 {
+  display: flex;
+  background-color: black;
+  padding: 0px;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 1;
+}
+.Down-D-2 {
+  display: flex;
+  background-color: black;
+  padding: 0px;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Down-D-3 {
+  display: flex;
+  background-color: black;
+  padding: 0px;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Info h5 {
+  font-size: 17px;
+}
+.Info {
+  display: block;
+  height: 200px;
+  text-align: center;
+}
+.Copyright {
+  text-align: left;
+  margin-left: 20px;
+}
